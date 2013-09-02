@@ -18,7 +18,13 @@
                 </div>
             </div>
             <div class="control-group">
-                <label class="control-label" for="footerjs">Code</label>
+                <label class="control-label" for="footerjs">Header Code</label>
+                <div class="controls">
+                    <textarea name="headerjs" class="span6" rows="10"><?=htmlspecialchars(\Idno\Core\site()->config()->headerjs)?></textarea>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="footerjs">Footer Code</label>
                 <div class="controls">
                     <textarea name="footerjs" class="span6" rows="10"><?=htmlspecialchars(\Idno\Core\site()->config()->footerjs)?></textarea>
                 </div>

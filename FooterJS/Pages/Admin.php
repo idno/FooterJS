@@ -23,9 +23,11 @@
             function postContent() {
                 $this->adminGatekeeper(); // Admins only
                 $footerjs = $this->getInput('footerjs');
+                $headerjs = $this->getInput('headerjs');
                 \Idno\Core\site()->config->config['footerjs'] = $footerjs;
+                \Idno\Core\site()->config->config['headerjs'] = $headerjs;
                 \Idno\Core\site()->config()->save();
-                \Idno\Core\site()->session()->addMessage('Your Footer Javascript details were saved.');
+                \Idno\Core\site()->session()->addMessage('Your Header & Footer Javascript details were saved.');
                 $this->forward('/admin/footerjs/');
             }
 
