@@ -1,13 +1,13 @@
 FooterJS
 ========
 
-An idno plugin that allows you to paste analytics code or other Javascript at the bottom of your idno site pages.
+A Known plugin that allows you to paste analytics code or other Javascript at the bottom of your Known site pages.
 
 Installation
 ------------
 
-* Drop the FooterJS folder into the IdnoPlugins folder of your idno installation.
-* Log into idno and click on Administration.
+* Drop the FooterJS folder into the IdnoPlugins folder of your Known installation.
+* Log into Known and click on Administration.
 * Click "install" next to FooterJS.
 
 License
