@@ -17,7 +17,7 @@
                 $this->adminGatekeeper(); // Admins only
                 $t = \Idno\Core\site()->template();
                 $body = $t->draw('admin/footerjs');
-                $t->__(['title' => 'Footer Javascript', 'body' => $body])->drawPage();
+                $t->__(array('title' => 'Footer Javascript', 'body' => $body))->drawPage();
             }
 
             function postContent() {
