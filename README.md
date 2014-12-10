@@ -1,14 +1,14 @@
-FooterJS
+Custom JavaScript & HTML
 ========
 
-A Known plugin that allows you to paste analytics code or other Javascript at the bottom of your Known site pages.
+A Known plugin that allows you to add custom JavaScript and HTML code to your site for programs like analytics tracking. Includes options for the header and footer.  
 
 Installation
 ------------
 
 * Drop the FooterJS folder into the IdnoPlugins folder of your Known installation.
 * Log into Known and click on Administration.
-* Click "install" next to FooterJS.
+* Click "enable" next to Custom JavaScript & HTML.
 
 License
 -------
