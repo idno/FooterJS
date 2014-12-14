@@ -1,8 +1,9 @@
 <div class="row">
 
     <div class="span10 offset1">
+	            <?=$this->draw('admin/menu')?>
         <h1>Custom JavaScript & HTML</h1>
-        <?=$this->draw('admin/menu')?>
+
         <div class="explanation">
             <p>
             This editor lets you easily customize your website using a combination of JavaScript and HTML in the header and footer. You can use this space to add code to your site pages for things like analytics, page optimization, and customer tracking.                    </p>
