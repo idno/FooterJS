@@ -2,7 +2,7 @@
 
     <div class="span10 offset1">
 	            <?=$this->draw('admin/menu')?>
-        <h1>Custom JavaScript & HTML</h1>
+        <h1>Custom JavaScript</h1>
 
         <div class="explanation">
             <p>
@@ -19,14 +19,13 @@
 	</div>
             <div class="row">
                 <div class="span10 offset1">
-	                <p class="controls"><strong>Header code</strong></p>
+	                <p class="js-controls"><strong>Header code</strong></p>
                     <textarea name="headerjs" class="span10" rows="10"><?=htmlspecialchars(\Idno\Core\site()->config()->headerjs)?></textarea>
                 </div>
             </div>
             <div class="row">
-               <!-- <label class="control-label" for="footerjs"><strong>Footer Code</strong></label>-->
                 <div class="span10 offset1">
-	               <p class="controls"><strong>Footer code</strong></p> 
+	               <p class="js-controls"><strong>Footer code</strong></p> 
                     <textarea name="footerjs" class="span10" rows="10"><?=htmlspecialchars(\Idno\Core\site()->config()->footerjs)?></textarea>
                 </div>
             </div>
